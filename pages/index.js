@@ -76,7 +76,7 @@ export default function Home() {
     .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)); // Sort by `createdAt` date descending
 
   const [isVerified, setIsVerified] = useState(false);
-  const [loading, setLoading] = useState(true);
+ // const [loading, setLoading] = useState(true);
 
   // Function to handle verification via gplinks.com
   const handleVerify = async () => {
